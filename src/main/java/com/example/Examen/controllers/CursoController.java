@@ -4,7 +4,11 @@ import com.example.Examen.dtos.CursoDTO;
 import org.springframework.web.bind.annotation.*;
 import com.example.Examen.services.CursoService;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import java.util.List;
+
+@CrossOrigin(origins = "*") // <--- ESTA LÍNEA ES LA CLAVE
+
 
 @RestController
 @RequestMapping
