@@ -18,7 +18,6 @@ public class CursoController {
 
     public CursoController(CursoService cursoService){
         this.cursoService = cursoService;
-
     }
 
     @GetMapping("/cursos")

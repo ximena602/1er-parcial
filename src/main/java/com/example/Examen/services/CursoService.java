@@ -39,8 +39,8 @@ public class CursoService {
         if (cursoEditado.getDuracion() != null) {
             temporal.setDuracion(cursoEditado.getDuracion());
         }
-        if (cursoEditado.getnivel() != 0) {
-            temporal.setNivel(cursoEditado.getnivel());
+        if (cursoEditado.getNivel() != 0) {
+            temporal.setNivel(cursoEditado.getNivel());
         }
         if (cursoEditado.getInstructor() != null) {
             temporal.setInstructor(cursoEditado.getInstructor());

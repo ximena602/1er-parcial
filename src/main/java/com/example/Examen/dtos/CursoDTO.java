@@ -1,7 +1,5 @@
 package com.example.Examen.dtos;
-
 public class CursoDTO {
-
     private Long id;
     private String nombre;
     private String duracion;
@@ -17,14 +15,11 @@ public class CursoDTO {
         this.nivel = nivel;
         this.instructor = instructor;
         this.costo = costo;
-
-
     }
-
     public Long getId(){return this.id;}
     public String getNombre(){return  this.nombre;}
     public String getDuracion(){return this.duracion;}
-    public int getnivel(){return  this.nivel;}
+    public int getNivel(){return  this.nivel;}
     public String getInstructor(){return  this.instructor;}
     public int getCosto(){return  this.costo;}
 
